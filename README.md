@@ -6,4 +6,8 @@ Getting Ready for the :baby:.
   * Deploy a production site to the world wide web.
   * Increase my extraneous Python skills.
   
+ ```sh
+ python manage.py makemigrations
+ python manage.py migrate
+ python manage.py runserver
  
