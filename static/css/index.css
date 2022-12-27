@@ -29,7 +29,7 @@ body {
     sans-serif;
 }
 
-.container {
+.container-clock {
   color: #333;
   margin: 0 auto;
   text-align: center;
@@ -65,15 +65,15 @@ li span {
 }
 
 @media all and (max-width: 768px) {
-  h1 {
-    font-size: calc(1.5rem * var(--smaller));
-  }
+    h1 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
 
-  li {
-    font-size: calc(1.125rem * var(--smaller));
-  }
+    li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
 
-  li span {
-    font-size: calc(3.375rem * var(--smaller));
-  }
+    li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
 }

@@ -21,5 +21,4 @@ from . import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.print, name='print'),
-    path('__debug__/', include('debug_toolbar.urls')),
 ]
