@@ -5,7 +5,7 @@ Getting Ready for the :baby:.
 https://willasweb.com/
 ```
 * New to Django, I have various goals with the development of this site.
-  * Learn more about Python web-based frameworks and Model-View-Template design pattern
+  * Learn more about Python web-based frameworks and Model-View-Template design pattern.
   * Deploy a production site to the world wide web.
   * Increase my extraneous Python skills.
   
