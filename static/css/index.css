@@ -3,9 +3,12 @@
     --smaller: .75;
 }
 
-navbar{
+.navbar{
     width: 100%;
     margin:0px 0;
+}
+a.nav-link{
+    color: #6f42c1;
 }
 navbar ul{
     width: 100%;
@@ -45,7 +48,7 @@ body {
     align-items: center;
     background-color: #11908d;
     display: flex;
-    font-family: -apple-system,
+    font-family: 'Roboto', sans-serif,
     BlinkMacSystemFont,
     "Segoe UI",
     Roboto,
@@ -56,7 +59,7 @@ body {
     sans-serif;
 }
 
-.container-clock {
+.clock{
     color: #333;
     margin: 0 auto;
     text-align: center;
@@ -91,7 +94,7 @@ li span {
     padding: 0 .5rem;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1080px) {
     h1 {
         font-size: calc(1.5rem * var(--smaller));
     }
