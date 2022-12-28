@@ -76,3 +76,13 @@ li span {
     font-size: calc(3.375rem * var(--smaller));
   }
 }
+.dropdown-menu{
+    background-color: #f1b0b7;
+}
+.form-control{
+  width: 275px;
+  margin-right: 10px;
+}
+.btn{
+  height: 40px;
+}

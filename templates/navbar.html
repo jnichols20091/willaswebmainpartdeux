@@ -2,9 +2,9 @@
 <link rel="stylesheet" href="{% static 'css/index.css' %}">
 
 
-<nav class="navbar fixed-top navbar-expand navbar-dark bg-dark text-uppercase">
+<nav class="navbar fixed-top navbar-expand bg-dark text-uppercase">
     <div class="container-fluid">
-        <a class="navbar-brand" id="maintext" href="#"><h5>Willas Web</h5></a>
+        <a class="navbar-brand" id="maintext" href="#"><h4>Willas Web</h4></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -13,11 +13,15 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <h5>Home</h5></a>
-                    <div class="dropdown-menu bg-info shadow-lg" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu shadow-lg" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{% url 'about' %}">about</a>
                         <a class="dropdown-item" href="{% url 'contact' %}">contact</a>
                     </div>
                 </li>
+                <form class="d-flex">
+                    <input class="form-control mb-auto" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </div>
