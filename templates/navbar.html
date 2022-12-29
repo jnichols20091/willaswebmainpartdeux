@@ -12,6 +12,7 @@
 
 <nav class="navbar fixed-top navbar-expand bg-dark text-uppercase">
     <div class="container-fluid">
+
         <a class="navbar-brand" id="maintext" href="#"><h4>Willas Web</h4></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,13 +27,12 @@
                         <a class="dropdown-item" href="{% url 'contact' %}">contact</a>
                     </div>
                 </li>
-                <form class="d-flex" id="searchbar">
-                    <input class="form-control mb-auto" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </div>
-
+<form class="d-flex" id="searchbar">
+                    <input class="form-control mb-auto" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
 </nav>
 
