@@ -1,3 +1,6 @@
 #aboutnav{
-    background-color: #1b1e21 !important;
+    background-color: #771ba7 !important;
+}
+.navbar-dark .navbar-brand{
+    color: #17a2b8;
 }

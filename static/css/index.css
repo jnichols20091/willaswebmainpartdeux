@@ -60,8 +60,10 @@ li span {
   display: contents;
 }
 .navbar{
-  display: grid;
+  display: inline-flex;
 }
-
+.nav.navbar.fixed-top.navbar-expand.bg-dark.text-uppercase.shadow-lg{
+  align-content: flex-end;
+}
 
 
