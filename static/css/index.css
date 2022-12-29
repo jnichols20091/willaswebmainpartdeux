@@ -31,7 +31,7 @@ body {
 .container {
   color: #333;
   margin: 0 auto;
-  text-align: center;
+  text-align: right;
 }
 
 h1 {
@@ -85,4 +85,39 @@ li span {
 }
 .btn{
   height: 40px;
+}
+.dropdown-menu{
+  margin-right: 10px;
+  justify-content: flex-start;
+}
+.dropdown-item{
+  color: #000;
+  text-justify: auto;
+  text-align-all: left;
+}
+body.dark h1{
+  color: #fff;
+    transition-delay: 0ms !important;
+}
+#maintext{
+  color: #000000;
+}
+#searchbar{
+    position: sticky;
+    right: 100%;
+    --bs-position: right;
+}
+li a.dropdown-item{
+  padding-right: 50px;
+  text-align: left;
+  accent-color: #888686;
+  align-self: auto;
+}
+.container#drop{
+  position: absolute;
+    padding: 0px 0px 0px 960px;
+  align-content: flex-end !important;
+}
+.d-flex{
+  padding: 400px 0px 0px 0px;
 }
