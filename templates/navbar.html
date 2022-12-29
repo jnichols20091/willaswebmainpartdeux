@@ -10,19 +10,17 @@
 
 
 
-<nav class="navbar fixed-top d-flex navbar-expand bg-dark text-uppercase shadow-lg" >
+<nav class="navbar fixed-top navbar-expand bg-dark text-uppercase shadow-lg" >
     <div class="container-fluid">
         <a class="navbar-brand d-lg-block"  href="#"><h4>Willas Web</h4></a>
 
-                <li class="nav-item dropdown">
                     <div class="collapse navbar-collapse mb-auto " id="navbarNavAltMarkup">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <h5>Home</h5></a>
-                    <div class="dropdown-menu shadow-lg m-auto" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{% url 'about' %}">about</a>
-                        <a class="dropdown-item" href="{% url 'contact' %}">contact</a>
-                    </div>
-                </li>
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home</a>
+                    <ul class="dropdown-menu shadow-lg m-auto" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="{% url 'about' %}">about</a></li>
+                        <li><a class="dropdown-item" href="{% url 'contact' %}">contact</a></li>
+                    </ul>
         </div>
     </div>
     <!-- searchbar -->
