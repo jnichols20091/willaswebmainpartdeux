@@ -46,11 +46,22 @@ li span {
   padding: 0 .5rem;
 }
 
-
-
-
-
-
+.dropdown-menu.show{
+    display: inline-grid;
+}
+.container{
+  text-align: -webkit-center;
+}
+.dropdown-menu.show {
+  display: inline-grid;
+  background-color: inherit;
+}
+.dropdown-item{
+  display: contents;
+}
+.navbar{
+  display: grid;
+}
 
 
 
