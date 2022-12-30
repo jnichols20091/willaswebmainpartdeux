@@ -4,3 +4,7 @@
 .navbar-dark .navbar-brand{
     color: #17a2b8;
 }
+
+.span navbar-toggler-icon{
+    background-color: #17a2b8;
+}
