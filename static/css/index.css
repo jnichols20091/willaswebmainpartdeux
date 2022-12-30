@@ -24,7 +24,7 @@ body {
 
 
 li {
-  display: inline-block;
+  display: inline-flex;
   font-size: 1.5em;
   list-style-type: none;
   padding: 1em;
