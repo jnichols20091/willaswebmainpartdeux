@@ -8,3 +8,7 @@
 .span navbar-toggler-icon{
     background-color: #17a2b8;
 }
+
+.button{
+    border: 10px solid black;
+}
